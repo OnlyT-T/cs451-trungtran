@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Nhập Liệu</title>
+</head>
+<body>
+    <h2>Nhập thông tin cá nhân</h2>
+    <form action="display.php" method="POST">
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Nam" checked> Nam
+        <input type="radio" name="gender" value="Nữ"> Nữ<br><br>
+
+        <label>Job:</label><br>
+        <input type="text" name="job" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
